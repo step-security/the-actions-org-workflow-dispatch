@@ -1,0 +1,12 @@
+node_modules/
+.env
+.idea
+
+# Yarn 4 (node-modules linker; the release binary is managed by Corepack)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
